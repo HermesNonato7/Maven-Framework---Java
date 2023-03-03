@@ -1,11 +1,11 @@
 package one;
 
 /**
- * Hello world!
+ * Hello from component!
  *
  */
 public class App {
-    public void message() {
+    public static void message() {
         System.out.println("Hello from component!");
     }
 }
