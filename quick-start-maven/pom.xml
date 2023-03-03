@@ -24,5 +24,10 @@
       <artifactId>hibernate-validator</artifactId>
       <version>8.0.0.Final</version>
     </dependency>
+    <dependency>
+      <groupId>one</groupId>
+      <artifactId>component</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>

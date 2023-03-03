@@ -1,4 +1,4 @@
-package one.digitalinnovation;
+package one;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-class TestComponent
+public class AppTest 
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ class TestComponent
      *
      * @param testName name of the test case
      */
-    public TestComponent(String testName )
+    public AppTest( String testName )
     {
         super( testName );
     }
@@ -25,13 +25,13 @@ class TestComponent
      */
     public static Test suite()
     {
-        return new TestSuite( TestComponent.class );
+        return new TestSuite( AppTest.class );
     }
 
     /**
      * Rigourous Test :-)
      */
-    public void TestComponent()
+    public void testApp()
     {
         assertTrue( true );
     }
