@@ -1,0 +1,7 @@
+<root>
+    <item name='one.App void message()'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true"/>
+        </annotation>
+    </item>
+</root>
